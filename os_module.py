@@ -29,7 +29,6 @@ def list_directory_contents(path):
         print(f"An unexpected error occurred: {e}")
 
 def main():
-    # Prompt the user for the directory path
     path = input("Enter the directory path: ")
     list_directory_contents(path)
 
